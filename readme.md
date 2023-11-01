@@ -1,0 +1,1 @@
+Implementation of OpenAI's tutorial: [How to build an AI that can answer questions about your website](https://platform.openai.com/docs/tutorials/web-qa-embeddings)
