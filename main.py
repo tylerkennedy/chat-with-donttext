@@ -319,11 +319,13 @@ def question_and_answer():
 
     df.head()
 
-    print(answer_question(df, question="What day is it?"))
-
-    print(answer_question(df, question="What does the Dont Text app do?"))
-
-    print(answer_question(df, question="How much does Dont Text cost?"))
+    while True:
+        user_input = input("Please ask a quetion about Dont Text (q to quit): ")
+        if user_input.lower() == 'q':
+            print("Exiting the program.")
+            break
+        print(answer_question(df, question=user_input))
+        print()
 
 def main():
     crawl(full_url)
