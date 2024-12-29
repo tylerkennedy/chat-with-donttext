@@ -1,1 +1,1 @@
-Implementation of OpenAI's tutorial: [How to build an AI that can answer questions about your website](https://platform.openai.com/docs/tutorials/web-qa-embeddings)
+Implementation of OpenAI's tutorial: [How to build an AI that can answer questions about your website](https://platform.openai.com/docs/tutorials/web-qa-embeddings) to chat with content from my apps website (https://donttext.app/). This is a simple RAG app to answer questions about my app
